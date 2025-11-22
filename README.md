@@ -49,22 +49,26 @@ TP9DPBO2425C2/
 │   │   ├── Sirkuit.php
 │   │   ├── TabelPembalap.php
 │   │   └── TabelSirkuit.php
+│   │
 │   ├── views/
 │   │   ├── ViewPembalap.php
 │   │   └── ViewSirkuit.php
+│   │
 │   ├── presenters/
 │   │   ├── PresenterPembalap.php
 │   │   └── PresenterSirkuit.php
+│   │
 │   ├── template/
 │   │   ├── skin.html
 │   │   └── form.html
+│   │
 │   └── index.php
 │
 ├── dokumentasi/
 │   └── Record.mp4
 │
-├── mvp_db.sql               # File database
-└── README.md                # Dokumentasi ini
+├── mvp_db.sql
+└── README.md
 ````
 
 ## Fitur CRUD

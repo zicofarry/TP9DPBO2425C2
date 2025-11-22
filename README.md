@@ -1,3 +1,6 @@
+# Janji
+Saya Muhammad 'Azmi Salam dengan NIM 2406010 mengerjakan Tugas Praktikum 9 pada Mata Kuliah Desain dan Pemrograman Berorientasi Objek (DPBO) untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
+
 # Proyek MVP - Manajemen Data F1
 
 Proyek ini adalah implementasi aplikasi web berbasis PHP Native yang menggunakan arsitektur **Model-View-Presenter (MVP)**. Proyek ini mengelola data balapan F1 yang mencakup data **Pembalap** dan data **Sirkuit**.

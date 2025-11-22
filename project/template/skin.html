@@ -3,7 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Pembalap — Daftar</title>
+  <body>
+  <div class="container">
+    <div style="margin-bottom:15px; display:flex; gap:10px;">
+        <a href="index.php?page=pembalap" class="btn" style="background:var(--card); border:1px solid var(--border); color:var(--muted)">Data Pembalap</a>
+        <a href="index.php?page=sirkuit" class="btn" style="background:var(--card); border:1px solid var(--border); color:var(--muted)">Data Sirkuit</a>
+    </div>
+
+    <div class="card">
+      <h1>Daftar Pembalap</h1>
   <style>
     :root{
       --bg: #f7f8fb;
@@ -104,7 +112,7 @@
       // Create a hidden form and submit it
       var form = document.createElement('form');
       form.method = 'POST';
-      form.action = 'index.php';
+      form.action = 'index.php'+ window.location.search;
       
       var actionInput = document.createElement('input');
       actionInput.type = 'hidden';

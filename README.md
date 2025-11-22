@@ -43,23 +43,26 @@ Program ini memisahkan logika aplikasi menjadi tiga komponen utama untuk menjaga
 ```text
 TP9DPBO2425C2/
 ├── project/
-│   ├── models/              # Logika database dan Entity
+│   ├── models/
 │   │   ├── DB.php
 │   │   ├── Pembalap.php
-│   │   ├── Sirkuit.php      (Baru)
+│   │   ├── Sirkuit.php
 │   │   ├── TabelPembalap.php
-│   │   └── TabelSirkuit.php (Baru)
-│   ├── views/               # Tampilan HTML
+│   │   └── TabelSirkuit.php
+│   ├── views/
 │   │   ├── ViewPembalap.php
-│   │   └── ViewSirkuit.php  (Baru)
-│   ├── presenters/          # Penghubung Model & View
+│   │   └── ViewSirkuit.php
+│   ├── presenters/
 │   │   ├── PresenterPembalap.php
-│   │   └── PresenterSirkuit.php (Baru)
-│   ├── template/            # Template HTML dasar
+│   │   └── PresenterSirkuit.php
+│   ├── template/
 │   │   ├── skin.html
 │   │   └── form.html
-│   └── index.php            # Main controller / Router
-├── dokumentasi/             # Screenshoot / Screenrecord
+│   └── index.php
+│
+├── dokumentasi/
+│   └── Record.mp4
+│
 ├── mvp_db.sql               # File database
 └── README.md                # Dokumentasi ini
 ````
@@ -81,15 +84,4 @@ Aplikasi ini memiliki fitur CRUD lengkap untuk dua entitas:
 
 ## Dokumentasi
 
-*(Tempelkan link Screenrecord atau screenshot program di sini)*
-
-1.  **Tampilan Daftar Pembalap**
-
-2.  **Tampilan Daftar Sirkuit**
-
------
-
-*Dibuat untuk Tugas TP9 DPBO 2024/2025.*
-
-```
-```
+https://github.com/user-attachments/assets/54ef10a6-e015-4d67-9060-789e2cc436ad
